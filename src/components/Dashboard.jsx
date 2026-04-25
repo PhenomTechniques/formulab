@@ -48,7 +48,7 @@ export default function Dashboard({ user, onNav, ingredients: myIngredients = []
                 onMouseLeave={e => { e.currentTarget.style.transform = ""; e.currentTarget.style.boxShadow = ""; }}
               >
                 <div className="stat-label">{label}</div>
-                <div className={`stat-value${label === "Formulas" ? " accent" : ""}`}>{value}</div>
+                <div className="stat-value">{value}</div>
                 {emptyNote && <div style={{ fontSize: 11, color: "var(--muted)", marginTop: 4, fontStyle: "italic" }}>{emptyNote}</div>}
               </div>
             </span>

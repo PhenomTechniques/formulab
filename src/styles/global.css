@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
   *{box-sizing:border-box;margin:0;padding:0}
   :root{
     --bg:#F7F3EE;--surface:#FBFAF8;--border:#E6DDD6;--border2:#D4C8BF;
@@ -15,7 +15,7 @@
   .app-shell{display:flex;min-height:100vh}
   .sidebar{width:220px;background:#2C1410;color:#fff;flex-shrink:0;display:flex;flex-direction:column;padding:0}
   .sidebar-logo{padding:24px 20px 20px;border-bottom:1px solid rgba(255,255,255,0.1)}
-  .sidebar-logo h1{font-size:18px;font-weight:600;letter-spacing:-0.3px;color:#fff;font-family:var(--font-display)}
+  .sidebar-logo h1{font-size:18px;font-weight:400;letter-spacing:0.2px;color:#fff;font-family:var(--font-display)}
   .sidebar-logo p{font-size:11px;color:rgba(255,255,255,0.45);margin-top:2px;font-family:var(--font-mono)}
   .sidebar-nav{flex:1;padding:12px 0}
   .nav-section{padding:8px 20px 4px;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;font-family:var(--font-body)}

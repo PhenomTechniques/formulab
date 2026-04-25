@@ -76,7 +76,7 @@ export default function App() {
     <div className="app-shell">
       <div className="sidebar">
         <div className="sidebar-logo" style={{ cursor: "pointer" }} onClick={() => { setPage("dashboard"); setNavArg(null); setNavKey(k => k + 1); }}>
-          <h1>Parchment Lab</h1>
+          <h1>The Parchment Lab</h1>
           <p>cosmetic formulator</p>
         </div>
         <nav className="sidebar-nav">
